@@ -2,6 +2,5 @@
 require 'sinatra'
 
 get '/' do
-  @fruit = ['clementine', 'orange', 'poire'].sample
-  erb:page
+  erb :page
 end
